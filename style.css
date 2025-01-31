@@ -7,6 +7,7 @@
 :root {
   --text-color: #fff;
   --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-color: #121214;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -18,6 +19,7 @@
 .light {
   --text-color: #000;
   --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-color: linear-gradient(#ADD8E6, #657C84);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
@@ -33,8 +35,8 @@ body{
   background-size: cover; Preenche todo espaço em branco/disponivel
   */
 
-  background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  background: var(--bg-color) no-repeat top center/cover;
+  /* height: 100vh; */
 }
 
 body * {
@@ -213,6 +215,6 @@ footer {
 
 #particles-js{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
 }
