@@ -28,15 +28,7 @@
 }
 
 body{
-  /*
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover; Preenche todo espaço em branco/disponivel
-  */
-
   background: var(--bg-color) no-repeat top center/cover;
-  /* height: 100vh; */
 }
 
 body * {
